@@ -1,0 +1,9 @@
+
+def mystery(n):
+    c = 0
+    for i in range(n):
+        b = i+1
+        b = str(b)*b
+        c = c + int(b)
+    return c
+mystery(0)
