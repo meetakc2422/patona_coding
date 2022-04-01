@@ -36,4 +36,4 @@ with open('output.csv','w',encoding='utf8',newline='') as myfile:
 
 
     counter += 1
-
+myfile.close()
